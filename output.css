@@ -719,6 +719,11 @@ video {
     margin-bottom: 15rem;
   }
 
+  .lg\:my-64{
+    margin-top: 16rem;
+    margin-bottom: 16rem;
+  }
+
   .lg\:w-\[35\%\]{
     width: 35%;
   }
