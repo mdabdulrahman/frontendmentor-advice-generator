@@ -709,12 +709,26 @@ video {
     margin-bottom: 13rem;
   }
 
+  .lg\:my-6{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:my-60{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+
   .lg\:w-\[35\%\]{
     width: 35%;
   }
 
   .lg\:w-\[85\%\]{
     width: 85%;
+  }
+
+  .lg\:w-\[40\%\]{
+    width: 40%;
   }
 
   .lg\:py-11{
