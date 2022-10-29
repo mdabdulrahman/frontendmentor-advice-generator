@@ -5,6 +5,7 @@
 .mobile-divider{
     @apply hidden
 }
+
 .desktop-divider{
     @apply block
 }

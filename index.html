@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advice Generate</title>
     <link rel="stylesheet" href="output.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script src="index.js" defer></script>
 </head>
 <body class="bg-[#1f2632] font-['Manrope']">
     <main>
-       <div class="bg-[#323a49] rounded-lg  lg:w-[35%] w-11/12  mx-auto lg:my-40 my-32   ">
+       <div class="bg-[#323a49] rounded-lg  lg:w-[35%] w-11/12  mx-auto lg:my-52 my-32   ">
         
         <div class="text-center lg:w-[85%] w-11/12  py-11 mx-auto">
 <p class="text-[#52ffa8] tracking-[5px] pb-6 font-bold text-xs">ADVICE #<span id="id">117</span></p>
     <q id="quote" class="text-[#cee3e9]  tracking-wide font-[800] text-[28px]">It is easy to sit up and take notice, what's difficult is getting up and taking action.</q>
 <img src="./images/pattern-divider-desktop.svg" class="desktop-divider py-11 mx-auto" alt="divider">
 <img src="./images/pattern-divider-mobile.svg" class="mobile-divider lg:py-11 py-6 mx-auto" alt="divider">
-<button onclick="getQuote()" class="bg-[#52ffa8]  hover:shadow-[0_0px_35px_1px_#52ffa8]  p-5 absolute translate-y-3 -translate-x-8  rounded-full"><img src="./images/icon-dice.svg"></button>
+<span onclick="getQuote()" class="bg-[#52ffa8] cursor-pointer   hover:shadow-[0_0px_35px_1px_#52ffa8]  p-5 absolute translate-y-3 -translate-x-8  rounded-full"><h1 class="hidden">get</h1><img src="./images/icon-dice.svg" class="  animate__animated  " style="animation-iteration-count: infinite;" id="dice" alt="dice"></span>
 </div>
 </div> 
     </main>
