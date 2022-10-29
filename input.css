@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.mobile-divider{
+    @apply hidden
+}
+.desktop-divider{
+    @apply block
+}
+@media only screen and (max-width: 991px) {
+.desktop-divider{
+    @apply hidden
+}
+.mobile-divider{
+    @apply block
+}
+
+}
